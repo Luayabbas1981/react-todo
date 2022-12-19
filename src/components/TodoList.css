@@ -1,0 +1,9 @@
+.completed {
+    text-decoration: line-through;
+}
+ul{
+    list-style: none;
+}
+i{
+    font-size: 1vw;
+}

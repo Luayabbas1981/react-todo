@@ -1,0 +1,57 @@
+.to-do {
+    display: flex;
+    align-items: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 1rem;
+  background-color: rgb(212, 233, 248);
+
+}
+.todo-item {
+  color:#673ab7;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.checkbox{
+    width: 18px;
+    height: 18px;
+}
+
+.completed {
+  color:#009688;
+}
+.uncompleted {
+  color:#ff9800;
+}
+.deleted {
+  width: 25%;
+  color: white;
+  border: none;
+  border-radius: .6rem;
+  background-color: red;
+  font-weight: bold;
+
+}
+.date {
+  color: rgb(204, 41, 204);
+  font-weight: bold;
+}
+.edit {
+  width: 25%;
+  color: white;
+  border: none;
+  border-radius: .6rem;
+  background-color:#8bc34a;
+  font-weight: bold;
+
+}
+.edit2{
+  width: 25%;
+  color: white;
+  border: none;
+  border-radius: .6rem;
+  background-color:#03a9f4;
+  font-weight: bold;
+
+}
