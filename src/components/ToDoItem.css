@@ -12,7 +12,7 @@
   color: #673ab7;
   font-weight: bold;
 }
-.edit2 i , .deleted i{
+.edit i,.edit2 i , .deleted i{
   font-size: 1.1rem;
 }
 @media (max-width: 767px) {
@@ -20,6 +20,11 @@
     width: 98%;
     margin: auto;
     font-size: 1.1rem;
+    justify-content: center;
+    row-gap: 1rem;
+  }
+  .to-do  >input{
+    width: 35vw;
   }
  .to-do button {
   width: fit-content;
