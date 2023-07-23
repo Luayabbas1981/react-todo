@@ -1,37 +1,49 @@
 .to-do {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
   width: 80%;
   margin: auto;
+  font-size: x-large;
   border-radius: 1rem;
   background-color: rgb(212, 233, 248);
-
 }
+
 .todo-item {
-  color:#673ab7;
-  font-size: x-large;
+  color: #673ab7;
   font-weight: bold;
 }
-
-.checkbox{
-    width: 18px;
-    height: 18px;
+.edit2 i , .deleted i{
+  font-size: 1.1rem;
+}
+@media (max-width: 767px) {
+  .to-do {
+    width: 98%;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+ .to-do button {
+  width: fit-content;
+  padding: 0.3rem;
+ }
+}
+.checkbox {
+  width: 18px;
+  height: 18px;
 }
 
 .completed {
-  color:#009688;
+  color: #009688;
 }
 .uncompleted {
-  color:#ff9800;
+  color: #ff9800;
 }
 .deleted {
   width: 25%;
   color: white;
   border: none;
-  border-radius: .6rem;
+  border-radius: 0.6rem;
   background-color: red;
   font-weight: bold;
-
 }
 .date {
   color: rgb(204, 41, 204);
@@ -41,17 +53,15 @@
   width: 25%;
   color: white;
   border: none;
-  border-radius: .6rem;
-  background-color:#8bc34a;
+  border-radius: 0.6rem;
+  background-color: #8bc34a;
   font-weight: bold;
-
 }
-.edit2{
+.edit2 {
   width: 25%;
   color: white;
   border: none;
-  border-radius: .6rem;
-  background-color:#03a9f4;
+  border-radius: 0.6rem;
+  background-color: #03a9f4;
   font-weight: bold;
-
 }

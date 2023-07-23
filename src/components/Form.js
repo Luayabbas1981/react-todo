@@ -47,10 +47,6 @@ export default function Form({
         className="todo-input"
         type="text"
         />
-      <button onClick={submitHandler} className="todo-button" type="submit">
-        Add a new task
-      </button>
-
       <div className="select">
         <select
           onChange={statusHandler}
@@ -67,9 +63,13 @@ export default function Form({
           </option>
         </select>
       </div>
+      <button onClick={submitHandler} className="todo-button" type="submit">
+        Add a new task
+      </button>
       <button onClick={resetHandler} className="todo-button" type="submit">
         reset
       </button>
+      
     </form>
     <h4 className="form-date">
       {new Date().toLocaleDateString("de-DE")}
